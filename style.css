@@ -48,7 +48,7 @@ nav ul li a {
   border-radius: 3px;
 }
 
-a.active,
+
 a:hover {
   background: #1b9bff;
   transition: .5s;
