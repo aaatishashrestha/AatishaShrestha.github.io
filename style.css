@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* NAVBAR STARTS */
+
+nav {
+  background: #000;
+  height: 120px;
+  width: 100%;
+}
+
+label img {
+  height: 80px;
+  width: 130px;
+  margin: 7px 30px;
+
+}
+
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+  z-index: 10;
+
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 110px;
+  margin: 0px 5px;
+
+}
+
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+
+a.active,
+a:hover {
+  background: #1b9bff;
+  transition: .5s;
+}
+
+.checkbtn {
+  font-size: 25px;
+  color: #fff;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+/* NAVBAR ENDS */
+@media(max-width: 952px) {
+  label {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+
+  nav ul li a {
+    font-size: 15px;
+    z-index: 10;
+  }
+
+  .checkbtn {
+    display: none;
+  }
+
+  .caption {
+    font-size: 15px;
+    height: auto;
+  }
+}
+
+
+
+
+
+
+/* HOME-SECTION STARTS */
+.home {
+  background-image: url(images/48.jpg);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.caption {
+  position: absolute;
+  height: auto;
+  padding: 30px;
+  font-size: 25px;
+  margin-left: 6%;
+  margin-right: auto;
+  top: 40%;
+  width: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.container1 {
+  position: relative;
+  color: #ffffff;
+  background-color: #000000;
+  width: 100%;
+  text-align: center;
+  padding: 50px 150px;
+  transition: all 0.5s ease;
+}
+
+
+.container2 {
+  color: #ffffff;
+  background: radial-gradient(circle,
+      rgba(39, 39, 41, 1) 0%,
+      rgba(32, 36, 36, 1) 50%,
+      rgba(24, 26, 32, 1) 100%);
+  text-align: center;
+  padding: 100px 80px 50px 80px;
+  transition: all 0.5s ease;
+}
+
+.container2 h1 {
+  font-size: 3em;
+  color: #ffffff;
+}
+
+.container2 p {
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 15px, sans-serif;
+  color: #ffffff;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+
+
+/* HOME-SECTION ENDS */
+
+
+
+
+/* ABOUTUS-SECTION STARTS */
+.container3 {
+  color: #ffffff;
+  background-color: #000000;
+  padding: 100px 80px 50px;
+  transition: all 0.5s ease;
+}
+
+.container3 h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.container3 h2 {
+  text-align: justify;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+.container3 h3 {}
+
+/* ABOUTUS-SECTION ENDS */
+
+
+
+
+/* Travel section starts */
+
+.container4 {
+  color: #ffffff;
+  background: radial-gradient(circle,
+      rgba(39, 39, 41, 1) 0%,
+      rgba(32, 36, 36, 1) 50%,
+      rgba(24, 26, 32, 1) 100%);
+  text-align: center;
+  padding: 100px 80px 50px 80px;
+  transition: all 0.5s ease;
+  hei
+}
+
+.container4 h1 {
+  font-size: 3em;
+  color: #ffffff;
+}
+
+.container4 h2 {
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px, sans-serif;
+  color: #ffffff;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.zoom {
+  padding: 40px;
+  transition: transform 0.2s;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+}
+
+
+
+/* Row & column same for Travel & festival&events section ends */
+
+.row {
+  margin: 8px -10px;
+}
+
+.row,
+.row>.column {
+  padding: 5px;
+}
+
+.column {
+  float: left;
+  width: 32%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Travel section ends */
+
+
+
+
+
+/* Festival&Events section starts */
+
+
+.container5 {
+  position: relative;
+  color: #ffffff;
+  width: 100%;
+  background-color: #313131;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 60px;
+  transition: all 0.5s ease;
+}
+
+.container5 h1 {
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px, sans-serif;
+  color: #ffffff;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.container5 .row .column {
+  padding: 40px;
+  transition: transform 0.2s;
+  margin: 0 auto;
+}
+
+
+.container5 .row .column:hover {
+  transform: scale(1.2);
+
+}
+
+/* Festival&Events section starts */
+
+.contact-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: #f2f2f2;
+}
+
+.contact-form {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  margin: 30px 0;
+}
+
+.contact-form>* {
+  width: 50%;
+}
+
+.contact-form .first-container {
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("images/g36.jpg") center center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form .first-container .info-container div {
+  margin: 24px 0;
+}
+
+.contact-form .first-container .info-container div h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  padding-bottom: 10px;
+}
+
+.contact-form .first-container .info-container div p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #00ad5f;
+}
+
+.contact-form .first-container .info-container div:first-of-type p {
+  max-width: 260px;
+  color: #999;
+}
+
+.contact-form .second-container {
+  padding: 30px;
+}
+
+.contact-form .second-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form .second-container h2 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #333;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-form .second-container form .form-group {
+  margin-bottom: 10px;
+}
+
+.contact-form .second-container form .form-group * {
+  min-height: 55px;
+  border: 1px solid #e6e6e6;
+  padding: 0 20px;
+}
+
+.contact-form .second-container form .form-group label {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #e6e6e6;
+  font-size: 16px;
+  color: #333;
+  text-transform: uppercase;
+  margin-top: -1px;
+}
+
+.contact-form .second-container form .form-group:first-of-type input {
+  width: 50.1%;
+  margin-right: -5px;
+}
+
+.contact-form .second-container form .form-group input {
+  width: 100%;
+  font-size: 15px;
+  margin-top: -2px;
+}
+
+.contact-form .second-container form .form-group input::placeholder,
+.contact-form .second-container form .form-group .textarea::placeholder {
+  color: #999;
+}
+
+.contact-form .second-container form .form-group .textarea {
+  width: 100%;
+  min-height: 80px;
+  resize: none;
+  padding: 10px 20px;
+  margin-top: -1px;
+}
+
+.contact-form .second-container form .send-btn {
+  width: 200px;
+  height: 50px;
+  background: #00ad5f;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 0;
+  position: relative;
+  left: 30%;
+  cursor: pointer;
+}
+
+.contact-form .second-container form .btn:hover {
+  background: #333;
+}
+
+@media screen and (max-width:800px) {}
